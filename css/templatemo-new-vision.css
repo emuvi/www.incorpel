@@ -1,20 +1,3 @@
-/*
-
-New Vision Template
-
-https://templatemo.com/tm-542-new-vision
-
-
-
-    COLORS
-    
-    Title: #333 (Dark Gray)
-    Text: #666 (Gray)
-    Hover: #09F (Blue)
-    Button: #C99 (Pink)
-    
-*/
-
 ul, h1, h2, h3, h4, p, figure {
     padding: 0;
     margin: 0;
@@ -66,7 +49,7 @@ p {
     }
 }
 
-.tm-site-header { padding-top: 50px; }
+.tm-site-header { padding-top: 30px; }
 
 @media (max-width: 992px) {
     .tm-site-header {
@@ -149,6 +132,10 @@ nav > ul > li { list-style: none; }
     color: #000;
     border-bottom: 5px solid #09F;
     border-left: none;
+}
+
+.nav-item-special {
+    background-color: #dbffe3;
 }
 
 @media (max-width: 992px) {
@@ -234,7 +221,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: #c99;
+    background-color: #9e7147;
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
