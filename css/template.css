@@ -221,7 +221,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: #9e7147;
+    background-color: #86603c;
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
@@ -801,4 +801,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+.tm-linha-produtos {
+    padding: 40px;
+}
+
+.tm-linha-produtos ul {
+    list-style: none;
 }
