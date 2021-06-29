@@ -302,9 +302,10 @@ nav > ul > li { list-style: none; }
 }
 
 .tm-article-icon {
-    color: #C99;
     margin-top: 20px;
     margin-bottom: 40px;
+    width: 64px;
+    height: 64px;
 }
 
 .tm-article-title {
