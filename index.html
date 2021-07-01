@@ -54,7 +54,7 @@ https://templatemo.com/tm-542-new-vision
               <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1">
 
                 <!-- Links -->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto" style="padding: 0px">
                   <li class="nav-item">
                     <a class="nav-link tm-nav-link" href="empresa.html">Empresa</a>
                   </li>
@@ -103,8 +103,8 @@ https://templatemo.com/tm-542-new-vision
               class="img-fluid tm-media-img" />
             <div class="tm-media-body">
               <a href="#" class="tm-article-link">
-                <h3 class="tm-article-title text-uppercase">Sacos de Papel Pardos e
-                  Brancos</h3>
+                <h3 class="tm-article-title text-uppercase">Sacos de Papel Pardos,
+                  Brancos e Decorados</h3>
               </a>
               <p>Aliquam purus arcu, congue a gravida ac, facilisis vel erat. Maecenas
                 pretium sem.</p>
@@ -115,8 +115,8 @@ https://templatemo.com/tm-542-new-vision
               class="img-fluid tm-media-img" />
             <div class="tm-media-body">
               <a href="#" class="tm-article-link">
-                <h3 class="tm-article-title text-uppercase">Rolos de Papel Pardos e
-                  Brancos</h3>
+                <h3 class="tm-article-title text-uppercase">Rolos de Papel Pardos, Brancos
+                  e Decorados</h3>
               </a>
               <p>Aliquam purus arcu, congue a gravida ac, facilisis vel erat. Maecenas
                 pretium sem at nisl malesuada, quis.</p>
@@ -133,9 +133,22 @@ https://templatemo.com/tm-542-new-vision
                 Alimentos.</p>
             </div>
           </article>
+          <script>
+            function pepEmbalagensPersonalizadas(img) {
+              setTimeout(() => {
+                index = Math.floor(Math.random() * 10);
+                if (index > 9) {
+                  index = 0;
+                }
+                let next = img.src.slice(0, -5) + index + '.jpg';
+                img.src = next;
+              }, 3000);
+            }
+          </script>
           <article class="col-lg-6 tm-media">
-            <img src="img/img-3x2-04.jpg" alt="Welcome image"
-              class="img-fluid tm-media-img" />
+            <img src="img/img-3x2-04_0.jpg" alt="Embalagens Personalizadas"
+              class="img-fluid tm-media-img" onload="pepEmbalagensPersonalizadas(this)"
+              style="border: 1px solid black;"/>
             <div class="tm-media-body">
               <a href="#" class="tm-article-link">
                 <h3 class="tm-article-title text-uppercase">Embalagens Personalizadas</h3>
@@ -181,7 +194,7 @@ https://templatemo.com/tm-542-new-vision
 
       <!-- Featured -->
       <section class="tm-featured">
-        <div class="row"> 
+        <div class="row">
           <div class="col-12">
             <h2 class="tm-section-header tm-section-header-small">Mais Produtos da Nossa
               Linha</h2>
@@ -232,14 +245,14 @@ https://templatemo.com/tm-542-new-vision
               <h4><i><span>Embalagens </span> Plásticas (Pet)</i></h4>
             </figcaption>
           </figure>
-          
+
           <figure class="effect-honey">
             <img src="img/gallery-item-08.jpg" alt="Featured Item">
             <figcaption>
               <h4><i><span>Bandeja</span> de Isopor</i></h4>
             </figcaption>
           </figure>
-          
+
           <figure class="effect-honey">
             <img src="img/gallery-item-09.jpg" alt="Featured Item">
             <figcaption>

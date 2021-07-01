@@ -83,8 +83,9 @@ p {
 }
 
 .tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
-.tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
-.tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
+.tm-products-bg { background-image: url(../img/new-vision-03.jpg); }
+.tm-services-bg { background-image: url(../img/new-vision-04.jpg); }
+.tm-contact-bg { background-image: url(../img/new-vision-05.jpg); }
 
 @media (max-width: 992px) {
     .tm-contact-bg { background-position: 80% top; }
