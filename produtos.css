@@ -1,0 +1,16 @@
+.tm-linha-produtos h3 {
+  margin-bottom: 12px;
+}
+
+.tm-linha-produtos h4 {
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.tm-linha-produtos ul {
+  margin-bottom: 12px;
+}
+
+.display-none {
+  display: none;
+}
