@@ -1,3 +1,3 @@
 # Incorpel
 
-http://www.incorpel.com.br is a website of the Incorpel industry with the associated services.
+<http://www.incorpel.com.br> is a web-media of the Incorpel industry with the associated services.
